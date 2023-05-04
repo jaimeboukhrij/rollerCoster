@@ -1,0 +1,90 @@
+body {
+
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+img {
+    width: 100px;
+
+}
+
+footer {
+
+    background-color: #212529;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    margin-top: 3px;
+    font-size: 1em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+
+footer p {
+    margin-top: 8px;
+}
+
+
+.home-pageList {
+    list-style: none;
+}
+
+.home-page img {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 300px;
+
+}
+
+.home-page a {
+    text-decoration: none;
+    color: red;
+}
+
+.home-page button:hover a {
+
+    color: white;
+}
+
+.home-page button {
+    margin: 7px;
+    padding: 10px 50px;
+    margin-right: 45px;
+}
+
+.img-card {
+    width: 350px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.card-title {
+    text-align: left;
+}
+
+.card-body {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-text {
+    font-size: .8em;
+    text-align: left;
+}
+
+.enlace {
+    text-decoration: none;
+    color: black;
+}
+
+
+.card-text {
+    font-size: 1em;
+}

@@ -1,0 +1,20 @@
+<div class="row d-flex justify-content-around"">
+        {{#each largCoaster}}
+        <div class=" col-md-4 ">
+    <a class = " enlace "href = " /">
+    <div class=" card border-light mb-3 " style=" width: 26rem;">
+        <img class="img-card" src="{{imageUrl}}" class="card-img-top" alt="{{title}}">
+        <div class="card-body">
+            <h3 class="card-title">{{title}}</h3>
+            <hr>
+            <p class="card-text">{{description}}</p>
+            <p><strong>Length: </strong>{{length}} m</p>
+            <p><strong>Inversion: </strong>{{inversions}}</p>
+        </div>
+    </div>
+    </a>
+</div>
+{{/each}}
+
+</div>
+</div>
